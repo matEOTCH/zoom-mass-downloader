@@ -30,9 +30,9 @@ Debes preparar un archivo `.csv` o `.txt` **sin encabezados** con dos columnas:
 
 Ejemplo:
 
-``csv
+```csv
 Clase_01_Introduccion,https://utec.zoom.us/rec/share/...
-Clase_02_Machine_Learning,https://utec.zoom.us/rec/share/...`
+Clase_02_Machine_Learning,https://utec.zoom.us/rec/share/...
 
 ---
 
@@ -64,12 +64,12 @@ Sigue estos pasos para ejecutar el proyecto en Google Colab:
 
 ---
 
-## 🧪 Comandos clave utilizados
+## 🧪 Comandos clave
 
-Durante la ejecución, el sistema utiliza los siguientes comandos:
+Durante la ejecución, se utilizan los siguientes comandos:
 
-``bash
-# Instalación de dependencias
+### Instalación de dependencias
+```bash
 pip install yt-dlp pandas
 
 # Descarga de video
