@@ -33,6 +33,7 @@ Ejemplo:
 ```csv
 Clase_01_Introduccion,https://utec.zoom.us/rec/share/...
 Clase_02_Machine_Learning,https://utec.zoom.us/rec/share/...
+```
 
 ---
 
@@ -74,6 +75,7 @@ pip install yt-dlp pandas
 
 # Descarga de video
 yt-dlp -o "ruta_de_salida/%(filename)s.%(ext)s" "URL_DEL_VIDEO"`
+```
 
 ## 🛠️ Tecnologías utilizadas
 
